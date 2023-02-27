@@ -1,0 +1,150 @@
+                          /* conponent */
+
+/* profile */
+.profile{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8%;
+}
+.my-img{
+  display: flex;
+  flex-direction: column;
+}
+.my-img img{
+  width: 40px;
+  display: inline-block;
+  margin: auto;
+}
+.btn-profile{
+  display: block;
+  margin-top: 15.5px;
+}
+
+/* title */
+.title{
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+
+}
+.title h1{
+  font-size: 18px;
+  font-weight: 500;
+}
+.title span{
+  margin-top: 5%;
+  font-size: 14px;
+}
+
+/* title > stack */
+.title > .stack{
+  margin-top: 6%;
+}
+
+/* main */
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content h2{
+  text-align: center;
+  background-color: #F1EEEE;
+  border-radius:11px;
+  font-size: 18px;
+  font-weight: 500;
+  height: 30px;
+  padding-top: 5px;
+  width: 90vw;
+  margin-top: 10%;
+}
+.text-box{
+  text-align: center;
+  background-color: #F1EEEE;
+  border-radius: 15px;
+  width: 90vw;
+  height: fit-content;
+  padding: 7% 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.text-box p{
+  font-size: 14px;
+  line-height: 1.3;
+}
+.text-box span{
+  text-align: left;
+  margin-left: 9.5%;
+  margin-top: 5%;
+}
+.text-box img{
+  width: 80%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* main > team */
+.team-box{
+  background-color: #F1EEEE;
+  border-radius: 15px;
+  width: 90vw;
+  height: fit-content;
+  padding: 10% 0;
+  margin-top: 5%;
+}
+.team-box{
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+}
+.team-conment{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+.team-conment span{
+  margin-right: 10%;
+  font-size: 12px;
+}
+.team-conment img{
+  width: 20px;
+  height: 20px;
+  margin-left: 3%;
+}
+
+/* conment */
+.conment{
+  margin-left: 7.5%;
+  margin-top: 8%;
+}
+.conment-text{
+  background-color: #F1EEEE;
+  border-radius: 15px;
+  border: none;
+  color: #000;
+  text-align: center;
+  width: 60%;
+  height: 90px;
+  margin-right: 7%;
+  font-size: 10px;
+}
+.conment-btn{
+  background-color: #F1EEEE;
+  border-radius: 15px;
+  border: none;
+  color: #000;
+  text-align: center;
+  width: 30%;
+  height: 90px;
+  font-size: 10px;
+}
+form{
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 3%;
+}

@@ -1,0 +1,142 @@
+.search-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    margin-top: 1.5vh;
+    padding-right: 70vw;
+}
+
+.search-box{
+    margin-top: 1vh;
+}
+
+/* 검색창 */
+.search{
+    margin-top: 1vh;
+    width: 310px;
+    height: 40px;
+    background-image: url(../imgs/js-logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.search::placeholder{
+
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-style: italic;
+}
+
+.select-list{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.select-list > h3{
+    padding-right: 55vw;
+}
+
+.recom-section > h3{
+    margin-top: 6vh;
+    padding-left: 6vw;
+}
+
+.list-imgs-section{
+    margin-top: 3vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-imgs-section div{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-imgs-section p {
+    padding-top: 2vh;
+    height: 5vh;
+    font-size: 2px;
+    font-style: inherit;
+    text-align: center;
+}
+
+.divide{
+    margin-top: 6.5vh;
+    background-color: #F5F0F0;
+    width: 100vw;
+    height: 1.5vh;
+}
+
+.recom-section > div{
+    margin-left: 3.5vw;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recom-section > div img{
+    width : 150px;
+    height: 180px;
+}
+
+.recom-section p {
+    padding-top: 3vh;
+    text-align: center;
+    height: fit-content;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/* main-con */
+.main{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-img{
+    display: inline-block;
+    margin: auto;
+}
+
+footer{
+    background-color: #EEEEEE;
+    opacity: 30%;
+    margin-top: 17%;
+    border-radius: 15px;
+    width: 100vw;
+    height: 70px;
+  }
+  footer nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer nav img{
+    width: 30px;
+    
+    display: inline-block;
+    margin-top: 10%;
+    padding-top: 40%;
+  }
+  footer nav a:first-child{
+    margin-left: 5%;
+  }
+  footer nav a:last-child{
+    margin-right: 5%;
+  }

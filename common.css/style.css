@@ -1,0 +1,71 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 1%;
+}
+
+header .logo{
+    width: 60px;
+    height: 28px;
+
+}
+
+footer{
+    /* 공통 footer */
+    background-color: #EEEEEE;
+    opacity: 30%;
+    margin-top: 10%;
+    border-radius: 15px;
+    width: 100vw;
+    height: 70px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav img {
+    width: 30px;
+
+    display: inline-block;
+    margin-top: 10%;
+    padding-top: 40%;
+}
+
+footer nav a:first-child {
+    margin-left: 5%;
+}
+
+footer nav a:last-child {
+    margin-right: 5%;
+}
+.selected{
+    background-color: #9162E4; 
+    /* 색상 투명도 */
+    opacity: 30%;
+}
+.input-text {
+    border-radius: 27px;
+    background: #fff;
+    border: 1px solid #eee;
+    width: 260px;
+    height: 40px;
+    margin-top: 2%;
+  
+    /* opacity: 10%; */
+  }
+  
+  .input-text-placeholder {
+    color: grey;
+    opacity: 50%;
+    text-indent: 10px;
+  }

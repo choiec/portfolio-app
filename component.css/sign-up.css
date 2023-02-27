@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.sign-up-form{
+  margin-top: 14%;
+}
+.main-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-logo img {
+  width: 82px;
+  height: 39px;
+}
+
+label {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: rgba(145, 98, 228, 0.7);
+  margin-top: 2%;
+  display: inline-block;
+}
+
+input {
+  width: 292px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 27px;
+}
+.done {
+  box-sizing: border-box;
+  width: 293px;
+  height: 40px;
+  background: #9162e4;
+  border: 1px solid #eeeeee;
+  border-radius: 27px;
+  margin-top: 10px;
+}

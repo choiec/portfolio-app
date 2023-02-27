@@ -1,0 +1,25 @@
+.find-pwd{
+  font-size: 20px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+input{
+  display: block;
+}
+.span-box{
+  width: 68%;
+}
+.text-pwd{
+  font-size: 10px;
+  font-weight: 300;
+}
+.text-pwd-2{
+  font-size: 10px;
+  font-weight: 300;
+  display: inline-block;
+}

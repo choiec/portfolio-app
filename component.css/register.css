@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.user-information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.user-information > p {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.stacks {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #EEEEEE;
+    border-radius: 14px;
+    color: #8f8f8f;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-bottom: 15px;
+}
+.stacks > div:last-of-type{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 332px;
+    height: 150px;
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-left: 29px;
+}
+.image-box > img {
+    opacity: 10%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.content>h1 {
+    display: flex;
+    width: 332px;
+    height: 40px;
+    border: 1px solid #EEEEEE;
+    border-radius: 14px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.content>textarea {
+    width: 312px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    resize: none;
+    margin-bottom: 15px;
+}

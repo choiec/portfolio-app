@@ -1,0 +1,79 @@
+.kakaologin {
+  margin-left: 0;
+}
+.google-login1 {
+  margin-left: 20px;
+}
+.google-login2 {
+  margin-left: 20px;
+}
+.google-login3 {
+  margin-left: 20px;
+}
+.btn-common {
+  background-color: #9162e4;
+  border-radius: 27px;
+  /* 외곽선 없애기 */
+  border: none;
+  color: #fff;
+}
+
+.hov {
+  cursor: pointer;
+}
+
+.logo2 {
+  margin-top: 100px;
+}
+div {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding-top: 10px;
+}
+.find-id{
+  color: #000;
+}
+.find-pwd {
+  margin-left: 20px;
+  color: #000;
+}
+.id-margin {
+  margin-top: 40%;
+}
+.pwd-margin {
+  margin-bottom: 40px;
+}
+.input-text {
+  border-radius: 27px;
+  background: #fff;
+  border: 2px solid #eee;
+  width: 260px;
+  height: 40px;
+  color: rgb(0, 0, 0, 0.9);
+  /* opacity: 10%; */
+}
+.input-text::placeholder {
+  color: grey;
+  opacity: 50%;
+  text-indent: 10px;
+  margin-left: 100px;
+}
+.membership {
+  margin-top: 20px;
+  color: #9162e4;
+}
+#orlog {
+  margin-top: 30px;
+}
+#edge {
+  box-sizing: border-box;
+
+  width: 292px;
+  height: 292px;
+  left: 49px;
+  top: 216px;
+
+  border: 1px solid #eeeeee;
+  border-radius: 27px;
+}
